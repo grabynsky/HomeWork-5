@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ds3,
+.chessboard,
+.battle {
+    width: 311px;
+    height: 484px;
+    margin: 0 65px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.radius {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 4px solid #554C4C;
+}
