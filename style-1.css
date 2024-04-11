@@ -1,0 +1,29 @@
+.section::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #383838;
+}
+
+
+#section-color-pink>ul>li:nth-child(even) {
+    color: pink;
+}
+
+#section-font-size li:nth-child(odd) {
+    font-size: 22px;
+}
+
+#section-2n-plus-four>ul>li:nth-child(2n+4)::after {
+    content: '!';
+    margin-left: 2px;
+}
+
+#section-color-purple li:last-child {
+    color: purple;
+}
+
+#section-fs-30-color-red ul>li::first-letter {
+    color:red;
+    font-size: 30px;
+}
+
